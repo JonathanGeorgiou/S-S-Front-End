@@ -1,0 +1,67 @@
+.btn-warning {
+  border-radius: 5px;
+  position: relative;
+  left: -80px;
+}
+.mr-auto {
+  position: relative;
+  left: 100px;
+}
+body {
+  background-image: linear-gradient(
+      rgba(47, 23, 15, 0.65),
+      rgba(47, 23, 15, 0.65)
+    ),
+    url("../img/bg.jpg");
+  background-size: 100%;
+  background-position-y: 110px;
+  background-attachment: fixed;
+}
+.jumbotron {
+  display: block;
+  margin-top: 200px;
+  max-width: 500px;
+  text-align: center;
+}
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  width: 700px;
+  height: 630px;
+  margin-top: 200px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #222121;
+  z-index: 0;
+}
+.card-header {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 900;
+  text-emphasis-color: #292710;
+  box-shadow: 2px 5px 18px #292710;
+}
+.navbar {
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.barber-image {
+  height: auto;
+  width: 100%;
+}
+.barber-description {
+  width: 60%;
+  float: right;
+  margin-top: 30px;
+}
+.image-section {
+  width: 30%;
+  float: left;
+}
+#barber-card {
+  height: 900px;
+}
